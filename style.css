@@ -7,3 +7,159 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.davidakoch.net
 */
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#top_header {
+	background-color: #ed1690;
+}
+
+#top_header ul {
+	margin-left: 50px;
+	margin-right: 50px; 
+}
+
+#top_header ul li {
+	list-style-type: none;
+	display: inline-block; 
+	font-family: sans-serif;
+	margin-top: 15px; 
+}
+
+
+#top_header ul li a{
+	color: white;
+	padding-right: 10px; 
+	font-size: 12px; 
+}
+
+#search {
+	float: right;
+	padding-right: 50px;
+}
+
+#searchbox {
+	background-color:  #FF77FF;
+	border-width: 0px;
+	border-radius: 2px;
+}
+
+input::placeholder {
+	color: white;
+	padding-left: 5px; 
+}
+
+.title {
+	background-color: black;
+	color: white;
+	height: 100px; 
+	margin-top: 0px; 
+	padding-top: 15px; 
+}
+
+.slider {
+	height: 350px;
+}
+
+.callouts {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.members img {
+	width: 98%;
+}
+
+.screenings img {
+	width: 98%;
+}
+
+.upcoming img {
+	width: 98%;
+}
+
+.about {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 20px; 
+}
+
+.about h1 {
+	margin-top: 25px; 
+}
+
+.philamoca {
+	display: block;
+	float: right;
+	width: 40%;
+	padding-left: 10px;
+}
+
+.about_text {
+	display: block;
+}
+
+.footer {
+	background-color: #01091d;
+	padding-bottom: 100px; 
+}
+
+.footer_row {
+	padding-top: 50px; 
+}
+
+.address {
+	color: white;
+	margin-left: 50px; 
+	font-size: 10px;
+}
+
+#bottom_menu {
+	margin-right: 50px; 
+}
+
+#bottom_menu ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+#bottom_menu ul li a {
+	color: #aaa;
+	font-size: 10px;
+	padding-left: 10px; 
+}
+
+
+@media only screen and (max-width: 1175px) {
+
+	 form {
+		display: none; 
+	}
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+	 .main_nav {
+		width: 80%; 
+		margin: 0 auto;
+	}
+
+	#top_header ul {
+		margin-right: 0px
+		margin-left: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+	 .title {
+		font-size: 25px;  
+	}
+
+}
+
+
