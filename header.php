@@ -13,7 +13,6 @@
 </head>
 	<body>
 		<header>
-			<div>
 			<nav id="top_header">
 				<div class="container-fluid">
 					<div class="row">
@@ -41,3 +40,4 @@
 					</div>
 				</div>
 			</nav>
+		</header>
