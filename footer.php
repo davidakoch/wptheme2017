@@ -3,7 +3,7 @@
 				<div class="row footer_row">
 					<div class="col-md-6">
 						<div class="address">
-							<p>@2017 WordPress Theme</p>
+							<p>@<?php echo Date('Y'); ?> WordPress Theme</p>
 							<p>123 Anytime St.</p>
 							<p>Haddon Township, NJ 08108
 						</div>
