@@ -41,6 +41,9 @@
 					</div>
 				</div>
 			</nav>
+
+<?php get_header(); ?>
+
 			<div class="row logo">
 				<div class="col-md-12">
 					<h1 class="text-center title">PHILADELPHIA PSYCHOTRONIC SOCIETY</h1>
@@ -119,6 +122,7 @@
 					</div>
 				</div>
 			</div>
-		</footer>		
+		</footer>	
+		<?php wp_footer(); ?>	
 	</body>
 </html>
