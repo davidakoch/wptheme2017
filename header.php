@@ -19,9 +19,10 @@
 						<div class="col-md-8 main_nav">
 							<?php 
 							$args = array(
-								'theme_location' => 'footer'
+								'theme_location' => 'primary'
 							);	
 							?>
+							
 							<?php wp_nav_menu(); ?>
 							<!--<ul>
 								<li><a>Home</a></li>
