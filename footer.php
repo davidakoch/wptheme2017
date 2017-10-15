@@ -10,7 +10,8 @@
 					</div>
 					<div class="col-md-6">
 						<nav id="bottom_menu">
-							<ul>
+							<?php wp_nav_menu(); ?>
+							<!--<ul>
 								<li><a>Home</a></li>
 								<li><a>About US</a></li>
 								<li><a>Blog</a></li>
@@ -18,7 +19,7 @@
 								<li><a>Members</a></li>
 								<li><a>Past Screenings</a></li>
 								<li><a>Upcoming Screenings</a></li>
-							</ul>
+							</ul>-->
 						</nav>
 					</div>
 				</div>
