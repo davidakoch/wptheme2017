@@ -17,7 +17,8 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-8 main_nav">
-							<ul>
+							<?php wp_nav_menu(); ?>
+							<!--<ul>
 								<li><a>Home</a></li>
 								<li><a>About Us</a></li>
 								<li><a>Blog</a></li>
@@ -25,7 +26,7 @@
 								<li><a>Members</a></li>
 								<li><a>Past Screenings</a></li>
 								<li><a>Upcoming Screenings</a></li>
-							</ul>
+							</ul>-->
 						</div>
 						<div class="col-md-4">
 							<ul>
