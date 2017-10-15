@@ -17,6 +17,11 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-8 main_nav">
+							<?php 
+							$args = array(
+								'theme_location' => 'footer'
+							);	
+							?>
 							<?php wp_nav_menu(); ?>
 							<!--<ul>
 								<li><a>Home</a></li>

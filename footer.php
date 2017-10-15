@@ -10,7 +10,14 @@
 					</div>
 					<div class="col-md-6">
 						<nav id="bottom_menu">
-							<?php wp_nav_menu(); ?>
+
+							<?php 
+							$args = array(
+								'theme_location' => 'primary'
+							);	
+							?>
+
+							<?php wp_nav_menu( $args ); ?>
 							<!--<ul>
 								<li><a>Home</a></li>
 								<li><a>About US</a></li>
