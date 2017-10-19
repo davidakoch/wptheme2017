@@ -10,8 +10,10 @@
 <section class="slider">
 </section>
 	<?php if(have_posts()) : ?>
-		<section class="blog-post">
-		</section>	
+		<?php while(have_posts()) : the_post() ?>
+			<section class="blog-post">
+			</section>	
+	<?php endwhile; ?>
 	<?php else : ?>
 		<p><?php__('No Posts Found'); ?></p>
 	<?php endif; ?>
