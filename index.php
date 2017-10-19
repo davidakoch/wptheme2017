@@ -9,8 +9,12 @@
 </div>		
 <section class="slider">
 </section>
-<section class="blog-post">
-</section>	
+	<?php if(have_posts()) : ?>
+		<section class="blog-post">
+		</section>	
+	<?php else : ?>
+		<p><?php__('No Posts Found'); ?></p>
+	<?php endif; ?>
 <section>
 	<div class="row funnyPic">	
 		<div class="col-md-12">
