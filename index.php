@@ -9,6 +9,8 @@
 </div>		
 <section class="slider">
 </section>
+<section class="blog-post">
+</section>	
 <section>
 	<div class="row funnyPic">	
 		<div class="col-md-12">
