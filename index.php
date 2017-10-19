@@ -9,14 +9,14 @@
 </div>		
 <section class="slider">
 </section>
+<div class="blog-post">
 	<?php if(have_posts()) : ?>
-		<?php while(have_posts()) : the_post() ?>
-			<section class="blog-post">
-			</section>	
-	<?php endwhile; ?>
+		<?php while(have_posts()) : the_post(); ?>
+		<?php endwhile; ?>
 	<?php else : ?>
-		<p><?php__('No Posts Found'); ?></p>
+		<p><?php __('No Posts Found'); ?></p>
 	<?php endif; ?>
+</div>
 <section>
 	<div class="row funnyPic">	
 		<div class="col-md-12">
