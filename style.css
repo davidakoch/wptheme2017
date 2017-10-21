@@ -63,9 +63,10 @@ input::placeholder {
 }
 
 
-
 .content-area {
-	height: 200px; 
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 20px; 
 }
 
 .callouts {
