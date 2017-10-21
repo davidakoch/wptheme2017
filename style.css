@@ -62,8 +62,10 @@ input::placeholder {
 	padding-top: 15px; 
 }
 
-.slider {
-	height: 350px;
+
+
+.content-area {
+	height: 200px; 
 }
 
 .callouts {
