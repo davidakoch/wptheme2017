@@ -5,4 +5,13 @@ register_nav_menus(array(
 	'footer' => __( 'Footer Menu'),
 ));
 
+//Excerpt Length Control
+
+function set_excerpt_length(){
+	return 50;
+}
+
+add_filter('excerpt_length', 'set_excerpt_length');
+
 ?>
+
