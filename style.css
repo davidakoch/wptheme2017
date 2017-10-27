@@ -137,6 +137,23 @@ input::placeholder {
 	padding-left: 10px; 
 }
 
+/*css for page blog*/
+
+#metadatas {
+	padding-bottom: 25px; 
+}
+
+.post-categories {
+	list-style-type: none; 
+	display: inline-block;
+	margin-left: -40px;
+}
+
+#tags {
+	float: right;
+	margin-right: 75px;
+}
+
 
 @media only screen and (max-width: 1175px) {
 

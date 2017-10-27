@@ -25,9 +25,10 @@
 	<h2><?php the_title(); ?></h2>
 	<p><?php the_content(); ?></p>
 	<strong><?php the_time('F jS, Y'); ?></strong> 
-	<p><?php the_category(); ?></p>
-	<p><?php the_tags(); ?></p>
-
+	<div id="metadatas">
+		<?php the_category(); ?>
+		<span id="tags"><?php the_tags(); ?></span>
+	</div>
 
 	<?php endwhile; else : ?>
 		<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
