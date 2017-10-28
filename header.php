@@ -16,13 +16,14 @@
 			<nav id="top_header">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-8 main_nav">
+						<!--small is from 576 to 768-->
+						<div class="col-md-8 col-sm-12 main_nav">
 							<?php 
 							$args = array(
 								'theme_location' => 'primary'
 							);	
 							?>
-							
+
 							<?php wp_nav_menu(); ?>
 							<!--<ul>
 								<li><a>Home</a></li>
@@ -43,6 +44,20 @@
 									</form>
 								</li>
 							</ul>
+						</div>
+						<div class="row">
+							<div class="mobile_menu col-sm-12 main_nav">
+								<h2>Menu</h2>
+								<ul id="mobile_list">
+									<li><a>Home</a></li>
+									<li><a>About Us</a></li>
+									<li><a>Blog</a></li>
+									<li><a>Contact Us</a></li>
+									<li><a>Members</a></li>
+									<li><a>Past Screenings</a></li>
+									<li><a>Upcoming Screenings</a></li>
+								</ul>
+							</div>	
 						</div>
 					</div>
 				</div>

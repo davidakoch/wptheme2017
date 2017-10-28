@@ -1,5 +1,11 @@
 <?php
 
+	/* wp_enqueue_script()
+
+
+	add_action ( 'wp_enqueue_scripts', )
+	*/
+
 	add_theme_support('post-thumbnails');
 
 	register_nav_menus(array(
