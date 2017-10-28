@@ -9,6 +9,7 @@ jQuery(document).ready(function($) {
 			$('.menu_700px').css("display","block");
 			$('.banner_700px').css("display","none");*/
 
-	});//end of document.on ready
+		});//end of document.on ready
 
+	});
 });
