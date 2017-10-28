@@ -8,7 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="wordpress theme">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<script src="script1.js"></script>
 	<?php wp_head(); ?>
 </head>
 	<body>
@@ -47,7 +49,7 @@
 						</div>
 						<div class="row">
 							<div class="mobile_menu col-sm-12 main_nav">
-								<h2>Menu</h2>
+								<h2 id="mobile_header">Menu</h2>
 								<ul id="mobile_list">
 									<li><a>Home</a></li>
 									<li><a>About Us</a></li>
