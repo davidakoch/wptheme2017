@@ -22,14 +22,13 @@ jQuery(document).ready(function($) {
 			} 
 		});	
 		
-		//makes menu 700 px disappear when you stretch
-
-		/*$(window).on('resize', function(){
+//makes menu list disappear when you stretch
+		$(window).on('resize', function(){
 			var w = $(window).width();
-			if (w > 680 && $('.menu_700px').is(':visible')){ 
-				$('.menu_700px').removeAttr('style');
-				$('.main_header').css("height", 225);
+			if (w > 900 && $('#mobile_list').is(':visible')){ 
+				$('#mobile_list').removeAttr('style');
+				//$('.main_header').css("height", 225);
 			}	
-		});*/
+		});
 	});
 });
