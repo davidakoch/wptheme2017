@@ -51,7 +51,7 @@
 						<div class="row">
 							<div class="mobile_menu col-sm-12 main_nav">
 								<h2 class="text-center" id="mobile_header"><span class="glyphicon glyphicon-menu-hamburger">Menu</span></h2>
-								<ul class="texxt-center" id="mobile_list">
+								<ul id="mobile_list">
 									<li><a>Home</a></li>
 									<li><a>About Us</a></li>
 									<li><a>Blog</a></li>

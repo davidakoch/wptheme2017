@@ -10,7 +10,12 @@ jQuery(document).ready(function($) {
 			$('#mobile_header').css("display","none");
 
 
-		});//end of document.on ready
+		});
+
+		$('#mobile_list').on('click', function(){
+			$('#mobile_header').css("display","block");
+			$('#mobile_list').css("display", "none");
+		});
 
 	});
 });
