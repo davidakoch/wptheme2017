@@ -169,6 +169,10 @@ ul#mobile_list li {
 	margin-top: 5px;
 }
 
+ul#mobile_list li a {
+	font-size: 20px; 
+}
+
 
 @media only screen and (max-width: 1175px) {
 
