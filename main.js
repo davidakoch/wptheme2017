@@ -14,5 +14,22 @@ jQuery(document).ready(function($) {
 			$('#mobile_list').css("display", "none");
 		});
 
+//makes the menu button disappear when you stretch the screen beyond 900px
+		$(window).on('resize', function(){
+			var w = $(window).width(); 
+			if (w > 900 && $('#mobile_header').is(':visible')){
+				$('#mobile_header').removeAttr('style');
+			} 
+		});	
+		
+		//makes menu 700 px disappear when you stretch
+
+		/*$(window).on('resize', function(){
+			var w = $(window).width();
+			if (w > 680 && $('.menu_700px').is(':visible')){ 
+				$('.menu_700px').removeAttr('style');
+				$('.main_header').css("height", 225);
+			}	
+		});*/
 	});
 });
