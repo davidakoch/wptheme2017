@@ -155,9 +155,18 @@ input::placeholder {
 }
 
 /*css for mobile header*/
+#mobile_header{
+	text-align: center; 
+}
 
 #mobile_list{
 	display: none; 
+}
+
+ul#mobile_list li {
+	display: block; 
+	text-align: center; 
+	margin-top: 5px;
 }
 
 

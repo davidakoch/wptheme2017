@@ -5,6 +5,8 @@ jQuery(document).ready(function($) {
 		$('#mobile_header').on('click', function(){
 			
 			console.log("hello");
+			$('#mobile_menu').css("height", 500);
+			$('#mobile_list').css("display","block");
 			/*$('.main_header').css("height", 500);
 			$('.menu_700px').css("display","block");
 			$('.banner_700px').css("display","none");*/
