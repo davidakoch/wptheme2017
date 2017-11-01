@@ -8,9 +8,7 @@ jQuery(document).ready(function($) {
 			$('#mobile_menu').css("height", 500);
 			$('#mobile_list').css("display","block");
 			$('#mobile_header').css("display","none");
-			/*$('.main_header').css("height", 500);
-			$('.menu_700px').css("display","block");
-			$('.banner_700px').css("display","none");*/
+
 
 		});//end of document.on ready
 

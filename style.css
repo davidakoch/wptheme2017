@@ -156,17 +156,16 @@ input::placeholder {
 
 /*css for mobile header*/
 #mobile_header{
-	text-align: center; 
 	color: white;
 }
 
 #mobile_list{
+	text-align: center; 
 	display: none; 
 }
 
 ul#mobile_list li {
 	display: block; 
-	text-align: center; 
 	margin-top: 5px;
 }
 
