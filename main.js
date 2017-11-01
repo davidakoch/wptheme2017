@@ -27,7 +27,6 @@ jQuery(document).ready(function($) {
 			var w = $(window).width();
 			if (w > 900 && $('#mobile_list').is(':visible')){ 
 				$('#mobile_list').removeAttr('style');
-				//$('.main_header').css("height", 225);
 			}	
 		});
 	});

@@ -20,7 +20,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<!--small is from 576 to 768-->
-						<div class="col-md-8 col-sm-12 main_nav">
+						<div class="col-md-8 main_nav">
 							<?php 
 							$args = array(
 								'theme_location' => 'primary'
@@ -51,7 +51,16 @@
 						<div class="row">
 							<div class="mobile_menu col-sm-12 main_nav">
 								<h2 class="text-center" id="mobile_header"><span class="glyphicon glyphicon-menu-hamburger">Menu</span></h2>
-								<ul id="mobile_list">
+
+								<?php 
+							$args = array(
+								'theme_location' => 'secondary'
+							);	
+							?>
+
+							<?php wp_nav_menu(); ?>
+
+								<!--<ul id="mobile_list">
 									<li><a>Home</a></li>
 									<li><a>About Us</a></li>
 									<li><a>Blog</a></li>
@@ -59,7 +68,7 @@
 									<li><a>Members</a></li>
 									<li><a>Past Screenings</a></li>
 									<li><a>Upcoming Screenings</a></li>
-								</ul>
+								</ul>-->
 							</div>	
 						</div>
 					</div>
