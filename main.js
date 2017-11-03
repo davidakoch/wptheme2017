@@ -10,6 +10,7 @@ jQuery(document).ready(function($) {
 
 //brings back the menu button when you hit the menu list
 		$('#mobile_list').on('click', function(){
+			$('#mobile_menu').css("height", 25);
 			$('#mobile_header').css("display","block");
 			$('#mobile_list').css("display", "none");
 		});
