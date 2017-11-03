@@ -29,22 +29,7 @@
              					);
 								wp_nav_menu( $defaults );
 							?>
-							<!--<?php 
-							$args = array(
-								'theme_location' => 'Primary'
-							);	
-							?>
 
-							<?php wp_nav_menu(); ?>-->
-							<!--<ul>
-								<li><a>Home</a></li>
-								<li><a>About Us</a></li>
-								<li><a>Blog</a></li>
-								<li><a>Contact Us</a></li>
-								<li><a>Members</a></li>
-								<li><a>Past Screenings</a></li>
-								<li><a>Upcoming Screenings</a></li>
-							</ul>-->
 						</div>
 						<div class="col-md-4">
 							<ul>
@@ -73,24 +58,7 @@
              					);
 								wp_nav_menu( $defaults );
 							?>
-							<!--<?php 
-							$args = array(
-								'theme_location' => 'Secondary',
-								'menu_id' => 'mobile_list'
-							);
-							?>
-
-							<?php wp_nav_menu(); ?>-->
-
-							<!--<ul id="mobile_list">
-								<li><a>Home</a></li>
-								<li><a>About Us</a></li>
-								<li><a>Blog</a></li>
-								<li><a>Contact Us</a></li>
-								<li><a>Members</a></li>
-								<li><a>Past Screenings</a></li>
-								<li><a>Upcoming Screenings</a></li>
-							</ul>-->
+							
 						</nav>
 					</div>
 				</div>
