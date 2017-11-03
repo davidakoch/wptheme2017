@@ -21,13 +21,21 @@
 					<div class="row">
 						<!--small is from 576 to 768-->
 						<div class="col-md-8 main_nav">
-							<?php 
+
+							<?php   
+								$defaults = array(
+				   					'theme_location' => 'primary-menu',
+				   						
+             					);
+								wp_nav_menu( $defaults );
+							?>
+							<!--<?php 
 							$args = array(
 								'theme_location' => 'Primary'
 							);	
 							?>
 
-							<?php wp_nav_menu(); ?>
+							<?php wp_nav_menu(); ?>-->
 							<!--<ul>
 								<li><a>Home</a></li>
 								<li><a>About Us</a></li>
@@ -56,14 +64,23 @@
 						</nav>	
 							<!--creates the mobile menu at 900px-->
 						<nav id="mobile_menu">
-							<?php 
+
+							<?php   
+								$defaults = array(
+				   					'theme_location' => 'secondary',
+				   					'menu_id' => 'mobile_list'
+				   						
+             					);
+								wp_nav_menu( $defaults );
+							?>
+							<!--<?php 
 							$args = array(
 								'theme_location' => 'Secondary',
 								'menu_id' => 'mobile_list'
 							);
 							?>
 
-							<?php wp_nav_menu(); ?>
+							<?php wp_nav_menu(); ?>-->
 
 							<!--<ul id="mobile_list">
 								<li><a>Home</a></li>
