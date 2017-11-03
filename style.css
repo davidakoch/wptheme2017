@@ -157,11 +157,12 @@ input::placeholder {
 /*css for mobile header*/
 #mobile_header{
 	color: white;
+	display: none;
 }
 
 #mobile_list{
 	text-align: center; 
-	display: none; 
+	/*display: none;*/ 
 }
 
 ul#mobile_list li {
@@ -176,6 +177,8 @@ ul#mobile_list li a {
 .glyphicon-menu-hamburger {
 	font-color: white;
 }
+
+
 
 @media only screen and (max-width: 1175px) {
 
@@ -200,7 +203,7 @@ ul#mobile_list li a {
 }
 
 @media only screen and (min-width: 900px) {
-	#mobile_header {
+	#mobile_menu {
 		display: none; 
 	}
 }

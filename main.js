@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 //makes menu list disappear when you stretch
 		$(window).on('resize', function(){
 			var w = $(window).width();
-			if (w > 900 && $('#mobile_list').is(':visible')){ 
+			if (w > 900 && $('.mobile_list').is(':visible')){ 
 				$('#mobile_list').removeAttr('style');
 			}	
 		});
