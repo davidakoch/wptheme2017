@@ -2,7 +2,7 @@
 
 
 	function wpwm_theme_js() {
-	wp_enqueue_script( 'main.js', get_template_directory_uri() . '/main.js', array('jquery'), ' ' , false);
+		wp_enqueue_script( 'main.js', get_template_directory_uri() . '/main.js', array('jquery'), ' ' , false);
 	}
 
 	add_action( 'wp_enqueue_scripts', 'wpwm_theme_js' );
@@ -22,6 +22,7 @@
 	add_action( 'init', 'register_my_menus');
 
 	//Excerpt Length Control
+		//sets the length of blog posts shown on blog page template
 
 	function set_excerpt_length(){
 		return 50;
