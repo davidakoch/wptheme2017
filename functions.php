@@ -1,6 +1,7 @@
 <?php
 
-
+	//add style sheet
+		//add bootstrap as a dependent to the style sheet
 	function wpwm_theme_js() {
 		wp_enqueue_script( 'main.js', get_template_directory_uri() . '/main.js', array('jquery'), ' ' , false);
 	}
