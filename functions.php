@@ -1,12 +1,14 @@
 <?php
 
-	//add style sheet
-		//add bootstrap as a dependent to the style sheet
-	function wpwm_theme_js() {
-		wp_enqueue_script( 'main.js', get_template_directory_uri() . '/main.js', array('jquery'), ' ' , false);
-	}
+	function my_assets() {
+		wp_enqueue_style( 'bootstrap.css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+		wp_enqueue_style( 'style.css', get_template_directory_uri() . '/style.css');
 
-	add_action( 'wp_enqueue_scripts', 'wpwm_theme_js' );
+		wp_enqueue_script( 'main.js', get_template_directory_uri() . '/main.js', array('jquery'), ' ' , false);
+		}
+
+	add_action( 'wp_enqueue_scripts', 'my_assets' );
+	
 
 	add_theme_support('post-thumbnails');
 
