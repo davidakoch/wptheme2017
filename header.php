@@ -19,12 +19,11 @@
 			<nav id="top_header">
 				<div class="container-fluid">
 					<div class="row">
-						<!--small is from 576 to 768-->
 						<div class="col-md-8 main_nav">
 
 							<?php   
 								$defaults = array(
-				   					'theme_location' => 'primary-menu',
+				   					'theme_location' => 'primary'
 				   						
              					);
 								wp_nav_menu( $defaults );
