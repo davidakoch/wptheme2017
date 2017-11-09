@@ -69,6 +69,16 @@ input::placeholder {
 	margin-bottom: 20px; 
 }
 
+.content-area-page {
+	width: 80%;
+    margin: 0 auto;
+	margin-bottom: 50px; 
+}
+
+.content-area-page h1 {
+	text-align: center; 
+}
+
 .callouts {
 	width: 80%;
 	margin: 0 auto;
