@@ -27,7 +27,7 @@
 				<div class="col-md-4 screenings">
 					<img src="http://first-theme-sept-2017.dev/wp-content/uploads/2017/10/werewolf.jpeg">
 				<h1>Screenings</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipiscing, elit ante nam sociis aptent felis ligula, neque pharetra massa gravida cum.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipiscing, elit ante nam sociis aptent felis ligula, neque pharetra massa gravida cum. orem ipsum dolor sit.</p>
 				<p><a href="http://psychotronicphilly.org/">Learn More</a></p>
 			</div>
 				<div class="col-md-4 upcoming">
