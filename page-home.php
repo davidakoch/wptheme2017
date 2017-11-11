@@ -16,12 +16,7 @@ get_header(); ?>
 </div>		
 
 
-<section>
-	<div class="row funnyPic">	
-		<div class="col-md-12">
-			<img src="">
-		</div>
-	</div>
+<section class="front_grid">
 	<div class="container-fluid callouts">
 		<div class="row">
 				<div class="col-md-4 members">
