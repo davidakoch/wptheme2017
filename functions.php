@@ -33,9 +33,13 @@
 
 	add_filter('excerpt_length', 'set_excerpt_length');
 
-	//function to create sidebar for a widget
-	function my_init_widgets(){
-		
+	//function to create sidebar with the id of sidbar
+		//for a widget
+	function my_init_widgets($id){
+		register_sidebar(array(
+			'name' =>  'Sidebar',
+			'id'   =>  'sidebar'
+		));
 	}
 
 ?>
