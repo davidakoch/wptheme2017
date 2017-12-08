@@ -12,6 +12,9 @@ get_header(); ?>
 </div>		
 
 <div id="primary" class="content-area-page">
+	<!--here is where I added the sidebar-->
+	<?php get_sidebar( 'Sidebar' ); ?>
+	
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<h1><?php the_title(); ?></h1>
 		<?php if(has_post_thumbnail()) : ?>
@@ -25,7 +28,7 @@ get_header(); ?>
 
 </div>
 
-<?php get_sidebar( 'Sidebar' ); ?>
+
 
 
 <?php get_footer(); ?>
