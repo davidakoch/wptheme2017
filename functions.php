@@ -33,5 +33,10 @@
 
 	add_filter('excerpt_length', 'set_excerpt_length');
 
+	//function to create sidebar for a widget
+	function my_init_widgets(){
+		
+	}
+
 ?>
 
