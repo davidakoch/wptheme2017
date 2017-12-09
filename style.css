@@ -149,6 +149,16 @@ input::placeholder {
 	padding-left: 10px; 
 }
 
+
+/*css for sidebar*/
+
+.sidebar {
+	float: right;
+	width: 50px;
+	height: 100%;
+}
+
+
 /*css for page blog*/
 
 #metadatas {
