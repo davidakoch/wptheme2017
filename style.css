@@ -152,10 +152,14 @@ input::placeholder {
 
 /*css for sidebar*/
 
-.sidebar {
+#primary-screening {
+	float: left; 
+	width: 79%;
+}
+
+#sidebar-primary {
 	float: right;
-	width: 50px;
-	height: 100%;
+	width: 20%;
 }
 
 
