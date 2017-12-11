@@ -13,7 +13,7 @@ get_header(); ?>
 
 <div class="wrap">
 	<div class="row">
-		<div class="col-md-7">	
+		<div class="col-md-9">	
 			<div id="primary-screenings">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<h1><?php the_title(); ?></h1>

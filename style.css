@@ -154,6 +154,8 @@ input::placeholder {
 
 #primary-screenings {
 	margin-left: 25px;	
+	width: 80%;
+	margin: 0 auto; 
 }
 
 #sidebar-primary {
