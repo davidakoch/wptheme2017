@@ -152,9 +152,8 @@ input::placeholder {
 
 /*css for sidebar*/
 
-#primary-screening {
-	float: left; 
-	width: 79%;
+#primary-screenings {
+	margin-left: 25px;	
 }
 
 #sidebar-primary {
