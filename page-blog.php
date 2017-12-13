@@ -22,15 +22,7 @@
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<!--this turns the post title into a permalink-->
-	<a href="<?php the_permalink(); ?>">
-		<h2><?php the_title(); ?></h2>
-	</a>
-	<p><?php the_excerpt(); ?></p>
-	<strong><?php the_time('F jS, Y'); ?></strong> 
-	<div id="metadatas">
-		<?php the_category(', '); ?>
-		<span id="tags"><?php the_tags(); ?></span>
-	</div>
+		<?php get_template_part('content'); ?>
 
 	<?php endwhile; else : ?>
 		<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
