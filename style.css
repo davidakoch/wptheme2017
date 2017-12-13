@@ -231,6 +231,16 @@ ul#mobile_list li a {
 		margin-left: 0px;
 	}
 
+	.widgettitle {
+		text-align: center;
+	}
+
+	#sidebar-primary {
+		margin-top: 50px;
+		margin-right: inherit;
+		float: none;
+	}
+
 }
 
 @media only screen and (min-width: 900px) {
