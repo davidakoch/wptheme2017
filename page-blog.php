@@ -21,7 +21,7 @@
 
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<!--this turns the post title into a permalink-->
+	
 		<?php get_template_part('content'); ?>
 
 	<?php endwhile; else : ?>
