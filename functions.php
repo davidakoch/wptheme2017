@@ -1,17 +1,16 @@
 <?php
-
+	//upload style sheets
 	function my_assets() {
 		wp_enqueue_style( 'bootstrap.css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 		wp_enqueue_style( 'style.css', get_template_directory_uri() . '/style.css');
-
 		wp_enqueue_script( 'main.js', get_template_directory_uri() . '/main.js', array('jquery'), ' ' , false);
 		}
 
 	add_action( 'wp_enqueue_scripts', 'my_assets' );
 	
-
 	add_theme_support('post-thumbnails');
-
+	
+	//register menus
 	function register_my_menus() {
 		register_nav_menus(
 			array(
@@ -26,7 +25,6 @@
 
 	//Excerpt Length Control
 		//sets the length of blog posts shown on blog page template
-
 	function set_excerpt_length(){
 		return 50;
 	}
@@ -41,7 +39,6 @@
 			'id'   =>  'sidebar'
 		));
 	}
-
 	//the hook for sidebar function
 	add_action('widgets_init', 'my_init_widgets');
 
