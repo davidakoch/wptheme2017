@@ -23,6 +23,13 @@
 
 	add_action( 'init', 'register_my_menus');
 
+	//this adds post formats
+	function bronson_theme_setup(){
+		add_theme_support('post-formats', array('link', 'video'));
+	}
+	//the hook to add post formats
+	add_action('after_setup_theme', 'bronson_theme_setup');
+
 	//Excerpt Length Control
 		//sets the length of blog posts shown on blog page template
 	function set_excerpt_length(){
