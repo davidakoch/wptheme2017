@@ -25,7 +25,7 @@
 
 	//this adds post formats
 	function bronson_theme_setup(){
-		add_theme_support('post-formats', array('link', 'video'));
+		add_theme_support('post-formats', array('link', 'video', 'gallery'));
 	}
 	//the hook to add post formats
 	add_action('after_setup_theme', 'bronson_theme_setup');
