@@ -49,5 +49,8 @@
 	//the hook for sidebar function
 	add_action('widgets_init', 'my_init_widgets');
 
+	//retrieves customizer files
+	require get_template_directory(). 'inc/customizer.php';
+
 ?>
 
