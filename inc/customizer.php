@@ -4,7 +4,8 @@
 		//page dropdown
 		$wp_customize->add_section('dropdown', array(
 			'title'  => __('Dropdown', 'bronson-theme'),
-			'description'  =>
+			'description'  => '',
+			'priority' => 130
 		))
 	}
 
