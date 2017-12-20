@@ -12,6 +12,10 @@
 			'capability'  => 'edit_theme_options',
 			'type'		  => 'theme_mod'
 		));
+
+		$wp_customize->add_control('dropdown_heading', array(
+			'label'		  =>__('Heading', 'bronson-theme'),
+		))
 	}
 
 	add_action('customize_register', 'bronson_customize_register');
