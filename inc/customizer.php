@@ -6,7 +6,12 @@
 			'title'  => __('Dropdown', 'bronson-theme'),
 			'description'  => '',
 			'priority' => 130
-		))
+		));
+
+		$wp_customize->add_setting('dropdown_heading', array(
+			'capability'  => 'edit_theme_options',
+			'type'		  => 'theme_mod'
+		));
 	}
 
 	add_action('customize_register', 'bronson_customize_register');
