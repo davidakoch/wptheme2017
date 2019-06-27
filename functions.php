@@ -10,7 +10,7 @@
 	
 	add_theme_support('post-thumbnails');
 	
-	//register menus
+	//this line of code will register menus
 	function register_my_menus() {
 		register_nav_menus(
 			array(
